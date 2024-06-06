@@ -30,6 +30,7 @@
     <string name="payment">Monto a pagar:</string>
     <string name="make_payment">"Realizar Pago"</string>
     <string name="select_credit_card">Seleccionar tarjeta de crédito</string>
+    <string name="no_credit_cards">No tenes tarjetas</string>
     <string name="nfc_payment_success">Pago realizado con exito!</string>
     <string name="nfc_simulation_button">Simular Accion NFC</string>
     <string name="image_qr_id">ImageQRId</string>

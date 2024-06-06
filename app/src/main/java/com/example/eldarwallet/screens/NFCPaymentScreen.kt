@@ -105,14 +105,19 @@ fun NFCPaymentScreen(navController: NavController, userId: Int)  {
         )
 
 
-        OutlinedButton(onClick = { expanded = true }, modifier = Modifier
+        OutlinedButton(onClick = { expanded = true }, enabled = (cards.isNotEmpty()), modifier = Modifier
             .fillMaxWidth(0.8f)
             .height(60.dp)) {
             if (selectedCreditCard != null) {
                 Text(text = "${selectedCreditCard?.marca}: ${Util.formatCreditCardNumber(EncryptionUtils()
                     .decryptStringFixedKey(selectedCreditCard!!.numero))}")
             } else {
-                Text(stringResource(id = R.string.select_credit_card))
+                if (cards.isEmpty()) {
+                    Text(stringResource(id = R.string.no_credit_cards))
+                } else {
+                    Text(stringResource(id = R.string.select_credit_card))
+                }
+
             }
         }
 

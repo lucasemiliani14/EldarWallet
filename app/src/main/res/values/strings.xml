@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EldarWallet</string>
+    <string name="create_new_user">Crear nuevo usuario</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repetir contraseña</string>
+    <string name="create_user_error">Email o contraseña inválido, vuelve a intentar</string>
+    <string name="create_user">Crear usuario</string>
+    <string name="eldar_wallet">Eldar Wallet</string>
+    <string name="user_created">Usuario agregado con exito!</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="invalid_user">Usuario inválido</string>
+    <string name="hello">Hola </string>
+    <string name="balance">Saldo actual:</string>
+    <string name="money">$ </string>
+    <string name="cards">Tarjetas</string>
+    <string name="add_card">Agregar tarjeta</string>
+    <string name="nfc_payment">Pago NFC</string>
+    <string name="show_qr">Mostrar QR</string>
+    <string name="card_number">Número de tarjeta</string>
+    <string name="expire">Vencimiento:</string>
+    <string name="month">Mes</string>
+    <string name="year">Año</string>
+    <string name="security_code">Codigo de seguridad</string>
+    <string name="added_card_succsess">Tarjeta agregada!</string>
+    <string name="invalid_card">La Tarjeta no es valida, vuelva a intentar</string>
+    <string name="nfc_action">Simular Acción NFC</string>
+    <string name="payment">Monto a pagar:</string>
+    <string name="make_payment">"Realizar Pago"</string>
+    <string name="select_credit_card">Seleccionar tarjeta de crédito</string>
+    <string name="nfc_payment_success">Pago realizado con exito!</string>
+    <string name="nfc_simulation_button">Simular Accion NFC</string>
+    <string name="image_qr_id">ImageQRId</string>
+</resources>
